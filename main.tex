@@ -1,4 +1,1110 @@
-\documentclass{article}
+\documentclass[11pt,a4paper]{article}
+
+% Pakete für deutsche Sprache
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Weitere wichtige Pakete
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{setspace}
+
+% Schriftart auf Arial (Helvetica) setzen
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Zeilenabstand 1,5-fach
+\onehalfspacing
+
+% Blocksatz mit Silbentrennung
+\usepackage{microtype}
+\sloppy
+
+% Seitenränder entsprechend IHK-Vorgaben
+\geometry{
+    left=2.5cm,
+    right=2.5cm,
+    top=4cm,
+    bottom=3cm,
+    headheight=3cm,
+    headsep=0.5cm,
+    footskip=1cm
+}
+
+% Code-Highlighting Setup
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% Kopf- und Fußzeile
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{3cm}
+\setlength{\headsep}{0.5cm}
+\setlength{\footskip}{1cm}
+\lhead{\hspace*{-2.0cm}\vspace*{2cm}\includegraphics[height=2.2cm]{image1.png}}
+\cfoot{\thepage}
+
 \begin{document}
-Hello, \LaTeX\ world!
+
+% Titelseite
+\thispagestyle{empty}
+
+% Logo-Bereich oben
+\begin{figure}[H]
+    \hspace*{-2.0cm}\vspace*{2cm}\includegraphics[height=2.2cm]{image1.png}
+\end{figure}
+
+\vspace{3cm}
+
+% Haupttitel - zentriert
+\begin{center}
+    {\Huge \textbf{COSPAR Communication System}}
+\end{center}
+
+\vfill
+
+% Informationsblock unten
+\begin{center}
+    \begin{tabular}{ll}
+        \textbf{Prüfling:} & Abdullah Diab \\[0.5em]
+        \textbf{Geburtsdatum:} & 01.01.2006 \\[0.5em]
+        \textbf{Ausbildungsberuf:} & Fachinformatiker für Anwendungsentwicklung \\[0.5em]
+        \textbf{Ausbildungsbetrieb:} & AFZ - Aus- und Fortbildungszentrum Bremen \\[0.5em]
+        \textbf{Ausbildungsstelle:} & ZARM - Zentrum für angewandte Raumfahrttechnologie und Mikrogravitation \\[0.5em]
+        \textbf{Prüflings-Nr.:} & [Ihre Prüflings-Nr.] \\
+    \end{tabular}
+\end{center}
+
+\vspace{2cm}
+
+\newpage
+
+% Eidesstattliche Erklärung
+\section*{Eidesstattliche Erklärung}
+\thispagestyle{empty}
+
+Hiermit versichere ich, dass das Projekt mit dem Titel \glqq COSPAR Communication System\grqq{} und die dazugehörige Dokumentation in Einzelarbeit von meiner Person angefertigt wurde. Diese Dokumentation wurde in der Vergangenheit nicht bei Prüfungen zur Bewertung/Begutachtung vorgelegt.
+
+\vspace{3cm}
+
+\noindent
+Bremen, den \underline{\hspace{3cm}}
+
+\vspace{2cm}
+
+\noindent
+\underline{\hspace{8cm}}\\
+Ort, Datum und Unterschrift des Prüfungsteilnehmers
+
+\newpage
+
+% Inhaltsverzeichnis
+\pagenumbering{roman}
+\setcounter{page}{1}
+\tableofcontents
+\newpage
+
+% Abbildungsverzeichnis
+\thispagestyle{empty}
+\listoffigures
+
+% Tabellenverzeichnis (falls benötigt)
+% \listoftables
+% \newpage
+
+% Ab hier beginnt die eigentliche Dokumentation mit arabischen Seitenzahlen
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\section{Einleitung}
+
+\subsection{Der Ausbildungsbetrieb}
+% Beschreibung des ZARM als Ausbildungsbetrieb
+Das Zentrum für angewandte Raumfahrttechnologie und Mikrogravitation (ZARM) der Universität Bremen ist eine international anerkannte Forschungseinrichtung, die sich auf Grundlagenforschung und angewandte Forschung in der Raumfahrttechnologie und Mikrogravitationsforschung spezialisiert hat. Als interdisziplinäres Zentrum verbindet das ZARM Expertise aus den Bereichen Physik, Ingenieurswissenschaften und Materialwissenschaften.
+
+% Rolle im internationalen Wissenschaftsbetrieb
+Das ZARM spielt eine bedeutende Rolle in der internationalen Raumfahrtforschung und unterhält enge Kooperationen mit führenden Raumfahrtagenturen wie der ESA, NASA und DLR. Durch diese Vernetzung ist das ZARM auch aktiv in wissenschaftlichen Organisationen wie COSPAR (Committee on Space Research) vertreten, wo Mitarbeiter wichtige Funktionen als Main Scientific Organizers (MSOs) und Deputy Organizers (DOs) übernehmen.
+
+% Ausbildungskontext  
+Im Rahmen der Ausbildung werden praktische IT-Projekte durchgeführt, die reale Problemstellungen aus dem wissenschaftlichen Betrieb aufgreifen und digitale Lösungen entwickeln. Das COSPAR Communication System Projekt ist ein solches Ausbildungsprojekt, das eine konkrete Herausforderung im COSPAR-Organisationsprozess adressiert.
+
+\subsection{Zielsetzung des Projekts}
+% TODO: Erkläre hier die Ziele des Communication System Projekts
+% - MSOs/DOs effizienter mit ihren Autoren kommunizieren lassen
+% - Bulk-E-Mail-Funktionalität implementieren
+% - Filterung nach Sessions und Autorentypen ermöglichen
+% - Manuelle E-Mail-Erstellung eliminieren
+
+\subsection{Was ist COSPAR?}
+% TODO: Erläutere COSPAR
+% - Committee on Space Research
+% - Internationale Organisation für Weltraumforschung
+% - Assemblies und Symposiums
+% - Rolle der MSOs und DOs
+
+\subsection{Die Rolle der MSOs und DOs im COSPAR-Prozess}
+% TODO: Erkläre die Rollen
+% - Main Scientific Organizers (MSOs) und Deputy Organizers (DOs)
+% - Verantwortung für Sessions (A0.1, A0.2, etc.)
+% - Kommunikation mit Autoren von eingereichten Abstracts
+% - Aktuelle Probleme bei der Massenkommunikation
+
+\subsection{Problemstellung der aktuellen Kommunikation}
+% TODO: Beschreibe das konkrete Problem
+% - Manuelle E-Mail-Eingabe jeder Autor-Adresse
+% - Zeitaufwand bei vielen Autoren
+% - Fehlerquellen beim manuellen Kopieren
+% - Fehlende Filteroptionen nach Sessions oder Autorentypen
+
+\newpage
+
+\section{Anforderungsanalyse}
+
+\subsection{Ist-Analyse}
+
+\subsubsection{Aktuelle Kommunikationsweise der MSOs/DOs}
+% TODO: Beschreibe den aktuellen Prozess
+% - MSOs öffnen ihr E-Mail-Programm (Outlook, Thunderbird, etc.)
+% - Manuelle Eingabe aller Autoren-E-Mail-Adressen
+% - Kein Filterungssystem für Sessions oder Autorentypen
+% - Zeitaufwändiger Prozess bei vielen Autoren
+
+\subsubsection{Probleme und Schwachstellen des manuellen E-Mail-Versands}
+% TODO: Analysiere die Probleme
+% - Tippfehler in E-Mail-Adressen
+% - Vergessen von Autoren
+% - Zeitverschwendung bei repetitiven Aufgaben
+% - Keine Historienführung der gesendeten E-Mails
+
+\subsubsection{Zeitaufwand und Fehlerquellen}
+% TODO: Quantifiziere das Problem
+% - Beispiel: MSO mit 50 Autoren in A0.1 und 30 in A0.2
+% - Geschätzte Zeit für manuelle E-Mail-Erstellung
+% - Häufige Fehlertypen
+
+\subsection{Soll-Analyse}
+
+\subsubsection{Funktionale Anforderungen}
+% TODO: Liste die funktionalen Anforderungen auf
+% - MSO/DO-Authentifizierung
+% - Autorenlisten-Anzeige nach Sessions
+% - Filterung nach Autorentyp (Presenting Author, Co-Author)
+% - Filterung nach Abstract-Status
+% - Bulk-E-Mail-Kompositionssystem
+% - E-Mail-Vorlagen
+% - Kommunikationshistorie
+
+\subsubsection{Nicht-funktionale Anforderungen}
+% TODO: Beschreibe nicht-funktionale Anforderungen
+% - Performance: Schnelle Filterung auch bei vielen Autoren
+% - Benutzerfreundlichkeit: Intuitive Bedienung
+% - Sicherheit: Sichere Authentifizierung
+% - Kompatibilität: Browser-übergreifende Funktionalität
+
+\subsubsection{Benutzeranforderungen}
+% TODO: Spezifische Anforderungen der MSOs/DOs
+% - Einfache Session-Auswahl
+% - Schnelle Autorenfilterung
+% - WYSIWYG-E-Mail-Editor
+% - Vorschau vor dem Versand
+
+\subsection{Wirtschaftlichkeitsbetrachtung}
+% TODO: Nutzen vs. Aufwand
+% - Zeitersparnis für MSOs/DOs
+% - Reduzierung von Kommunikationsfehlern
+% - Entwicklungsaufwand vs. langfristige Effizienzgewinne
+
+\subsection{Stakeholder-Analyse}
+% TODO: Wer ist betroffen?
+% - Primäre Nutzer: MSOs und DOs
+% - Sekundäre Nutzer: COSPAR-Administratoren
+% - Betroffene: Autoren (bessere Kommunikation)
+
+\newpage
+\section{Entwurfsphase}
+
+\subsection{Systemarchitektur}
+
+\subsubsection{Analyse der bestehenden COSPAR-Datenbank}
+% TODO: Beschreibe die vorhandene Datenbankstruktur
+% - Tabellen: congress, session, user, paper, etc.
+% - Beziehungen zwischen MSOs, Sessions und Autoren
+% - Relevante Felder für das Kommunikationssystem
+
+\subsubsection{Integration in die bestehende Infrastruktur}
+% TODO: Wie wird das System integriert?
+% - Nutzung der vorhandenen Authentifizierung
+% - Erweiterung der bestehenden Datenbank
+% - API-Endpunkte für das Frontend
+
+\subsubsection{Datenbankschema für Kommunikationssystem}
+% TODO: Neue Tabellen falls nötig
+% - E-Mail-History-Tabelle
+% - E-Mail-Templates-Tabelle
+% - Erweiterte User-Berechtigungen
+
+\subsection{Technische Architektur}
+
+\subsubsection{Frontend-Architektur (HTML, CSS, JavaScript)}
+% TODO: Frontend-Struktur
+% - Modularer Aufbau der JavaScript-Komponenten
+% - Responsive Design mit CSS/SCSS
+% - AJAX für dynamische Datenladung
+
+\subsubsection{Backend-Architektur (PHP, MySQL)}
+% TODO: Backend-Struktur
+% - PHP-MVC-Pattern
+% - MySQL-Datenbankzugriffe
+% - RESTful API-Design
+
+\subsubsection{E-Mail-Integration und SMTP-Konfiguration}
+% TODO: E-Mail-System
+% - SMTP-Server-Konfiguration
+% - E-Mail-Templates
+% - Bulk-E-Mail-Verarbeitung
+
+\subsection{Konzeption der Features}
+
+\subsubsection{MSO/DO-Dashboard}
+% TODO: Konzept des Hauptbildschirms
+% - Übersicht der zugewiesenen Sessions
+% - Schnellzugriff auf Autorenlisten
+% - Kommunikationshistorie
+
+\subsubsection{Autorenlisten-Management}
+% TODO: Konzept der Autorenverwaltung
+% - Anzeige nach Sessions
+% - Filteroptionen
+% - Auswahlmechanismen
+
+\subsubsection{Filter- und Gruppierungsfunktionen}
+% TODO: Filterkonzept
+% - Session-Filter (A0.1, A0.2, etc.)
+% - Autorentyp-Filter (Presenting, Co-Author)
+% - Status-Filter (Accepted, Rejected, etc.)
+% - Kombinierte Filter
+
+\subsubsection{E-Mail-Kompositionssystem}
+% TODO: E-Mail-Editor-Konzept
+% - WYSIWYG-Editor
+% - Vorlagen-System
+% - Anhänge-Support
+% - Vorschau-Funktionalität
+
+\subsubsection{Bulk-E-Mail-Funktionalität}
+% TODO: Massenversand-Konzept
+% - Empfängerauswahl
+% - Batch-Verarbeitung
+% - Progress-Tracking
+% - Fehlerbehandlung
+
+\subsubsection{E-Mail-Vorlagen und Templates}
+% TODO: Template-System
+% - Standard-Vorlagen
+% - Session-spezifische Templates
+% - Personalisierung
+
+\subsection{UI/UX Design}
+
+\subsubsection{Wireframes und Mockups}
+% TODO: Füge Wireframes/Mockups ein
+% Beispiel für Bildeinfügung:
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{images/wireframe-dashboard.png}
+%     \caption{Wireframe des MSO/DO-Dashboards}
+%     \label{fig:wireframe-dashboard}
+% \end{figure}
+
+\subsubsection{Responsives Designkonzept}
+% TODO: Erkläre das Responsive Design
+% - Mobile-First-Ansatz für Tablets und Smartphones
+% - Breakpoints für verschiedene Bildschirmgrößen
+% - Touch-optimierte Bedienelemente
+
+\subsubsection{Benutzerfreundlichkeit und Accessibility}
+% TODO: UX-Konzept
+% - Intuitive Navigation
+% - Barrierefreie Gestaltung
+% - Keyboard-Navigation
+
+\subsection{Sicherheitskonzept}
+
+\subsubsection{Authentifizierung und Autorisierung}
+% TODO: Sicherheitskonzept
+% - Integration in bestehendes COSPAR-Login
+% - Rollenbasierte Berechtigungen
+% - Session-Management
+
+\subsubsection{Datenschutz und DSGVO-Konformität}
+% TODO: Datenschutz
+% - Umgang mit persönlichen Daten der Autoren
+% - Einwilligungen für E-Mail-Kommunikation
+% - Datenminimierung
+
+\subsubsection{E-Mail-Sicherheit}
+% TODO: E-Mail-Sicherheit
+% - Spam-Schutz
+% - E-Mail-Authentifizierung
+% - Secure SMTP
+
+\subsection{Projektplanung}
+
+\subsubsection{Zeitplan und Meilensteine}
+% TODO: Erstelle einen Zeitplan
+% - M1: Anforderungsanalyse abgeschlossen
+% - M2: Design und Architektur fertig
+% - M3: Backend-Grundfunktionen implementiert
+% - M4: Frontend-Grundfunktionen implementiert
+% - M5: Integration und Testing
+% - M6: Go-Live
+
+\subsubsection{Risikomanagement}
+% TODO: Identifiziere Risiken
+% - Technische Risiken (Integration, Performance)
+% - Zeitliche Risiken (Komplexität unterschätzt)
+% - Qualitätsrisiken (Testing-Zeit)
+
+\newpage
+\section{Projektdurchführung}
+
+\subsection{Entwicklungsumgebung einrichten}
+
+\subsubsection{Server-Setup und Konfiguration}
+% TODO: Beschreibe das Setup
+% - Lokaler Entwicklungsserver (XAMPP, WAMP, etc.)
+% - PHP- und MySQL-Konfiguration
+% - Debugging-Tools
+
+\subsubsection{Datenbank-Installation und -konfiguration}
+% TODO: Datenbank-Setup
+% - MySQL-Installation
+% - Import der bestehenden COSPAR-Datenbank
+% - Entwicklungsdaten
+
+\subsubsection{Development-Tools und IDE-Setup}
+% TODO: Entwicklungstools
+% - Code-Editor/IDE (VS Code, PhpStorm, etc.)
+% - Versionskontrolle (Git)
+% - Browser-Entwicklertools
+
+\subsection{Datenbankentwicklung}
+
+\subsubsection{Erweiterung der bestehenden COSPAR-Datenbank}
+% TODO: Datenbankmodifikationen
+% - Neue Tabellen für E-Mail-System
+% - Foreign Keys und Relationen
+% - Indizierung für Performance
+
+\subsubsection{Tabellen für E-Mail-System}
+% TODO: Spezifische Tabellen
+% - email_history Tabelle
+% - email_templates Tabelle
+% - Relationen zu bestehenden Tabellen
+
+\subsubsection{Stored Procedures und Views}
+% TODO: Datenbanklogik
+% - Views für Autorenfilterung
+% - Stored Procedures für komplexe Abfragen
+% - Performance-Optimierung
+
+\subsubsection{Datenbank-Optimierung}
+% TODO: Performance-Aspekte
+% - Indexstrategien
+% - Query-Optimierung
+% - Caching-Strategien
+
+\subsection{Backend-Implementierung}
+
+\subsubsection{PHP-Framework-Setup}
+% TODO: Backend-Architektur
+% - MVC-Pattern Implementation
+% - Autoloading und Namespaces
+% - Konfigurationsmanagement
+
+\subsubsection{Datenbankzugriffe und DAO-Pattern}
+% TODO: Datenzugriff
+% - PDO für Datenbankverbindungen
+% - DAO-Klassen für verschiedene Entitäten
+% - Error-Handling
+
+\subsubsection{MSO/DO-Authentifizierung}
+% TODO: Authentifizierung
+% - Integration in bestehendes Login-System
+% - Session-Management
+% - Berechtigungsprüfung
+
+\subsubsection{Autorenfilter-Logik}
+% TODO: Filterimplementierung
+% - PHP-Klassen für verschiedene Filter
+% - Kombinierte Filterlogik
+% - Performance-Optimierung
+
+\subsubsection{E-Mail-Service-Implementierung}
+% TODO: E-Mail-System
+% - E-Mail-Kompositions-Klassen
+% - Template-Engine
+% - Anhang-Handling
+
+\subsubsection{SMTP-Integration}
+% TODO: SMTP-Implementation
+% - PHPMailer oder ähnliche Library
+% - SMTP-Konfiguration
+% - Error-Handling
+
+\subsubsection{Bulk-E-Mail-Verarbeitungslogik}
+% TODO: Massenversand
+% - Queue-System für große E-Mail-Mengen
+% - Batch-Verarbeitung
+% - Progress-Tracking
+
+\subsection{Frontend-Implementierung}
+
+\subsubsection{HTML-Struktur und Layout}
+% TODO: HTML-Implementation
+% - Semantische HTML-Struktur
+% - Modularer Aufbau
+% - Accessibility-Standards
+
+\subsubsection{CSS-Styling und Responsive Design}
+% TODO: CSS-Implementation
+% - SCSS/Sass-Verwendung
+% - CSS-Grid und Flexbox
+% - Responsive Breakpoints
+
+\subsubsection{JavaScript-Funktionalitäten}
+% TODO: JavaScript-Implementation
+% - Modularer JavaScript-Code
+% - Event-Handling
+% - Form-Validierung
+
+\subsubsection{AJAX-Implementierung für dynamische Inhalte}
+% TODO: AJAX-Integration
+% - Asynchrone Datenladung
+% - Autorenlisten-Updates
+% - Progress-Updates für E-Mail-Versand
+
+\subsubsection{Autorenfilter-Interface}
+% TODO: Filter-UI
+% - Dropdown-Menüs für Sessions
+% - Checkboxen für Autorentypen
+% - Echtzeitfilterung
+
+\subsubsection{E-Mail-Kompositions-Interface}
+% TODO: E-Mail-Editor-UI
+% - WYSIWYG-Editor-Integration
+% - Template-Auswahl
+% - Empfänger-Vorschau
+
+\subsubsection{Fortschrittsanzeigen für Bulk-E-Mails}
+% TODO: Progress-UI
+% - Progress-Bar-Implementation
+% - Real-time-Updates
+% - Fehleranzeige
+
+\subsection{Integration und Systemtest}
+
+\subsubsection{Unit Tests für Backend-Komponenten}
+% TODO: Backend-Testing
+% - PHPUnit-Tests
+% - Datenbank-Tests
+% - API-Endpoint-Tests
+
+\subsubsection{Frontend-Tests}
+% TODO: Frontend-Testing
+% - JavaScript-Unit-Tests
+% - UI-Komponenten-Tests
+% - Cross-Browser-Tests
+
+\subsubsection{Integrationstests}
+% TODO: Integration-Testing
+% - Frontend-Backend-Integration
+% - E-Mail-System-Tests
+% - End-to-End-Tests
+
+\subsubsection{E-Mail-Delivery-Tests}
+% TODO: E-Mail-Tests
+% - SMTP-Verbindungstests
+% - Bulk-E-Mail-Tests
+% - Spam-Filter-Tests
+
+\subsubsection{Performance-Tests}
+% TODO: Performance-Testing
+% - Load-Tests für viele Autoren
+% - Database-Performance-Tests
+% - Frontend-Performance-Tests
+
+\subsection{Usability Testing}
+
+\subsubsection{Testszenarien mit MSOs/DOs}
+% TODO: User-Testing
+% - Realistische Testszenarien
+% - MSO/DO-Feedback
+% - Usability-Metriken
+
+\subsubsection{Feedback-Integration}
+% TODO: Feedback-Verarbeitung
+% - Kategorisierung des Feedbacks
+% - Priorisierung von Änderungen
+% - Iterative Verbesserungen
+
+\subsubsection{UI/UX-Optimierungen}
+% TODO: UX-Improvements
+% - Interface-Anpassungen
+% - Workflow-Optimierungen
+% - Accessibility-Verbesserungen
+
+\newpage
+\section{Systemfunktionalitäten}
+
+\subsection{MSO/DO-Dashboard}
+
+\subsubsection{Übersicht der zugeordneten Sessions}
+% TODO: Dashboard-Features
+% - Liste aller Sessions des MSO/DO
+% - Autorenanzahl pro Session
+% - Letzte Kommunikationsaktivitäten
+
+\subsubsection{Autorenlisten-Anzeige}
+% TODO: Autorenlisten-Features
+% - Tabellarische Darstellung
+% - Sortier- und Suchfunktionen
+% - Status-Anzeigen
+
+\subsubsection{Kommunikationshistorie}
+% TODO: History-Features
+% - Chronologische E-Mail-Liste
+% - Suchfunktionen
+% - Export-Möglichkeiten
+
+\subsection{Autorenfilter-System}
+
+\subsubsection{Filter nach Sessions (A0.1, A0.2, etc.)}
+% TODO: Session-Filter
+% - Dropdown-Auswahl der Sessions
+% - Mehrfachauswahl möglich
+% - Echtzeitfilterung
+
+\subsubsection{Filter nach Autorentyp (Presenting Author, Co-Author)}
+% TODO: Autorentyp-Filter
+% - Checkbox-System
+% - Kombinierte Filterung
+% - Visuelle Unterscheidung
+
+\subsubsection{Filter nach Abstract-Status}
+% TODO: Status-Filter
+% - Filter nach Accepted, Rejected, etc.
+% - Status-basierte Kommunikation
+% - Bulk-Aktionen
+
+\subsubsection{Kombinierte Filter}
+% TODO: Multi-Filter
+% - Verknüpfung verschiedener Filterkriterien
+% - Filter-Presets speichern
+% - Filter-History
+
+\subsection{E-Mail-Kompositionssystem}
+
+\subsubsection{WYSIWYG-Editor}
+% TODO: Editor-Features
+% - Rich-Text-Editing
+% - HTML-Vorschau
+% - Formatierungsoptionen
+
+\subsubsection{E-Mail-Vorlagen}
+% TODO: Template-System
+% - Vordefinierte Templates
+% - Custom-Templates erstellen
+% - Variablen-Substitution
+
+\subsubsection{Anhänge-Management}
+% TODO: Attachment-Features
+% - File-Upload-Interface
+% - Größenlimitierung
+% - Vorschau-Funktion
+
+\subsubsection{Vorschau-Funktionalität}
+% TODO: Preview-Features
+% - HTML-E-Mail-Vorschau
+% - Empfänger-Liste-Vorschau
+% - Send-Confirmation
+
+\subsection{Bulk-E-Mail-Funktionalität}
+
+\subsubsection{Empfängerlisten-Management}
+% TODO: Recipient-Management
+% - Automatische Listen basierend auf Filtern
+% - Manuelle Empfänger-Anpassung
+% - Duplikat-Erkennung
+
+\subsubsection{Batch-Verarbeitung}
+% TODO: Batch-Processing
+% - Queue-basierter Versand
+% - Rate-Limiting
+% - Retry-Mechanismen
+
+\subsubsection{Delivery-Status-Tracking}
+% TODO: Status-Tracking
+% - Real-time Versandstatus
+% - Erfolgs-/Fehlerstatistiken
+% - Bounce-Handling
+
+\subsubsection{Fehlerbehandlung und Retry-Mechanismen}
+% TODO: Error-Handling
+% - Automatische Wiederholung bei Fehlern
+% - Fehlerprotokollierung
+% - Manual-Retry-Optionen
+
+\subsection{Kommunikationshistorie}
+
+\subsubsection{Sent-E-Mail-Archiv}
+% TODO: Archive-Features
+% - Vollständige E-Mail-History
+% - Metadaten-Speicherung
+% - Long-term-Storage
+
+\subsubsection{Suchfunktionen}
+% TODO: Search-Features
+% - Volltext-Suche in E-Mails
+% - Filter nach Datum, Empfänger, etc.
+% - Advanced-Search-Options
+
+\subsubsection{Export-Funktionen}
+% TODO: Export-Features
+% - CSV-Export der Kommunikationsdaten
+% - PDF-Reports
+% - E-Mail-Forwards
+
+\newpage
+\section{Testen und Qualitätssicherung}
+
+\subsection{Testkonzept}
+% TODO: Übergeordnetes Testkonzept
+% - Test-Strategie
+% - Test-Umgebungen
+% - Test-Daten-Management
+
+\subsection{Unit Testing}
+
+\subsubsection{Backend-Unit-Tests}
+% TODO: PHP-Unit-Tests
+% - Test-Coverage-Ziele
+% - Mock-Objects für Datenbank
+% - Beispielhafte Testfälle
+
+\subsubsection{JavaScript-Unit-Tests}
+% TODO: Frontend-Unit-Tests
+% - JavaScript-Testing-Framework
+% - DOM-Manipulation-Tests
+% - AJAX-Tests
+
+\subsection{Integrationstests}
+
+\subsubsection{Datenbank-Integration}
+% TODO: DB-Integration-Tests
+% - CRUD-Operations-Tests
+% - Transaction-Tests
+% - Performance-Tests
+
+\subsubsection{E-Mail-System-Integration}
+% TODO: E-Mail-Integration-Tests
+% - SMTP-Connection-Tests
+% - Template-Rendering-Tests
+% - Bulk-Send-Tests
+
+\subsection{Systemtests}
+
+\subsubsection{End-to-End-Tests}
+% TODO: E2E-Tests
+% - Komplette User-Journeys
+% - Browser-Automation
+% - Regression-Tests
+
+\subsubsection{Performance-Tests}
+% TODO: Performance-Testing
+% - Load-Tests
+% - Stress-Tests
+% - Scalability-Tests
+
+\subsubsection{Security-Tests}
+% TODO: Security-Testing
+% - Authentication-Tests
+% - Authorization-Tests
+% - Input-Validation-Tests
+
+\subsection{User Acceptance Testing}
+
+\subsubsection{MSO/DO-Feedback-Sessions}
+% TODO: User-Testing
+% - Strukturierte Feedback-Sessions
+% - Usability-Metriken
+% - Task-Completion-Rates
+
+\subsubsection{Usability-Tests}
+% TODO: Usability-Testing
+% - Think-Aloud-Protocol
+% - A/B-Testing
+% - Accessibility-Testing
+
+\subsection{Fehlerbehebung und Optimierung}
+% TODO: Bug-Fixing
+% - Bug-Tracking-System
+% - Priorisierung von Fixes
+% - Performance-Optimierungen
+
+\newpage
+\section{Deployment und Go-Live}
+
+\subsection{Produktionsumgebung}
+
+\subsubsection{Server-Konfiguration}
+% TODO: Production-Server-Setup
+% - LAMP/LEMP-Stack-Konfiguration
+% - SSL-Zertifikat-Installation
+% - Firewall und Security-Hardening
+
+\subsubsection{Datenbank-Migration}
+% TODO: DB-Migration
+% - Produktionsdatenbank-Setup
+% - Daten-Migration-Skripte
+% - Backup-Strategien
+
+\subsubsection{E-Mail-Server-Setup}
+% TODO: Mail-Server-Config
+% - SMTP-Server-Konfiguration
+% - SPF/DKIM-Records
+% - Bounce-Handling-Setup
+
+\subsection{Deployment-Strategie}
+
+\subsubsection{Staging-Environment}
+% TODO: Staging-Setup
+% - Pre-Production-Testing
+% - Data-Synchronization
+% - User-Acceptance-Testing
+
+\subsubsection{Production-Deployment}
+% TODO: Production-Deployment
+% - Deployment-Automatisierung
+% - Zero-Downtime-Deployment
+% - Rollout-Plan
+
+\subsubsection{Rollback-Strategien}
+% TODO: Rollback-Plan
+% - Backup-and-Restore-Procedures
+% - Database-Rollback-Strategien
+% - Emergency-Procedures
+
+\subsection{Monitoring und Logging}
+
+\subsubsection{System-Monitoring}
+% TODO: System-Monitoring
+% - Server-Performance-Monitoring
+% - Application-Performance-Monitoring
+% - Uptime-Monitoring
+
+\subsubsection{E-Mail-Delivery-Monitoring}
+% TODO: E-Mail-Monitoring
+% - Delivery-Rate-Tracking
+% - Bounce-Rate-Monitoring
+% - Spam-Filter-Monitoring
+
+\subsubsection{Error-Logging}
+% TODO: Error-Logging
+% - Centralized-Logging-System
+% - Error-Alerting
+% - Log-Analysis
+
+\subsection{Schulung und Dokumentation}
+
+\subsubsection{Benutzerhandbuch für MSOs/DOs}
+% TODO: User-Documentation
+% - Step-by-Step-Anleitungen
+% - Screenshots und Beispiele
+% - FAQ-Sektion
+
+\subsubsection{Administrator-Dokumentation}
+% TODO: Admin-Documentation
+% - System-Administration-Guide
+% - Troubleshooting-Guide
+% - Maintenance-Procedures
+
+\subsubsection{Technische Dokumentation}
+% TODO: Technical-Documentation
+% - API-Dokumentation
+% - Database-Schema-Documentation
+% - Code-Documentation
+
+\newpage
+\section{Projektabschluss}
+
+\subsection{Soll-Ist-Vergleich}
+
+\subsubsection{Erfüllung der funktionalen Anforderungen}
+% TODO: Vergleiche Anforderungen mit Ergebnis
+% - Tabelle mit Anforderungen und Erfüllungsgrad
+% - Funktionale Features implementiert
+% - Abweichungen und Begründungen
+
+\subsubsection{Performance-Bewertung}
+% TODO: Performance-Analyse
+% - Ladezeiten und Response-Times
+% - Bulk-E-Mail-Performance
+% - Scalability-Assessment
+
+\subsubsection{Zeitplan-Analyse}
+% TODO: Zeitplan-Bewertung
+% - Geplante vs. tatsächliche Entwicklungszeit
+% - Verzögerungen und Ursachen
+% - Lessons-Learned für Zeitschätzungen
+
+\subsection{Ausblick und Nutzen für COSPAR}
+
+\subsubsection{Effizienzsteigerung in der MSO/DO-Kommunikation}
+% TODO: Nutzen-Analyse
+% - Zeitersparnis quantifizieren
+% - Fehlerreduktion bei E-Mail-Versand
+% - Verbesserte Autoren-Betreuung
+
+\subsubsection{Zeitersparnis und Fehlerreduktion}
+% TODO: Konkrete Verbesserungen
+% - Vor/Nach-Vergleich der Arbeitsabläufe
+% - Geschätzte Zeitersparnis pro MSO/DO
+% - Reduzierung von Kommunikationsfehlern
+
+\subsubsection{Zukünftige Erweiterungsmöglichkeiten}
+% TODO: Future-Features
+% - Integration mit anderen COSPAR-Systemen
+% - Mobile-App-Entwicklung
+% - KI-basierte E-Mail-Vorschläge
+% - Automatische Erinnerungen
+
+\subsection{Reflexion}
+
+\subsubsection{Projektverlauf und Herausforderungen}
+% TODO: Projekt-Reflexion
+% - Wichtigste Herausforderungen
+% - Lösungsansätze und Entscheidungen
+% - Unerwartete Probleme und deren Bewältigung
+
+\subsubsection{Lessons Learned}
+% TODO: Erkenntnisse
+% - Technische Erkenntnisse
+% - Projektmanagement-Learnings
+% - Kommunikation mit Stakeholdern
+
+\subsubsection{Persönliche Entwicklung}
+% TODO: Persönliche Weiterentwicklung
+% - Neue technische Fähigkeiten
+% - Soft-Skills-Entwicklung
+% - Karriere-relevante Erfahrungen
+
+\subsection{Fazit}
+% TODO: Zusammenfassung
+% - Zielerreichung bewerten
+% - Persönliche Bewertung des Projekterfolgs
+% - Danksagungen an Betreuer und Unterstützer
+
+% Anhang
+\appendix
+
+\section{Quellcode-Auszüge}
+
+\subsection{PHP-Backend-Code}
+% TODO: Wichtige Backend-Code-Beispiele
+% \begin{lstlisting}[language=PHP, caption=MSO-Authentifizierung]
+% <?php
+% // Code hier einfügen
+% \end{lstlisting}
+
+\subsection{JavaScript-Frontend-Code}
+% TODO: Wichtige Frontend-Code-Beispiele
+% \begin{lstlisting}[language=JavaScript, caption=Autorenfilter-Funktion]
+% // Code hier einfügen
+% \end{lstlisting}
+
+\subsection{SQL-Datenbankskripte}
+% TODO: Wichtige SQL-Skripte
+% \begin{lstlisting}[language=SQL, caption=E-Mail-History-Tabelle]
+% -- Code hier einfügen
+% \end{lstlisting}
+
+\subsection{CSS-Stylesheets}
+% TODO: Wichtige CSS-Code-Beispiele
+% \begin{lstlisting}[language=CSS, caption=Responsive Design]
+% /* Code hier einfügen */
+% \end{lstlisting}
+
+\section{Screenshots}
+
+\subsection{MSO/DO-Dashboard}
+% TODO: Screenshots der Hauptseite
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{images/dashboard.png}
+%     \caption{MSO/DO-Dashboard mit Session-Übersicht}
+%     \label{fig:dashboard}
+% \end{figure}
+
+\subsection{Autorenfilter-Interface}
+% TODO: Screenshots der Filteroptionen
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{images/filter-interface.png}
+%     \caption{Autorenfilter mit Session- und Typ-Auswahl}
+%     \label{fig:filter}
+% \end{figure}
+
+\subsection{E-Mail-Kompositions-System}
+% TODO: Screenshots des E-Mail-Editors
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{images/email-composer.png}
+%     \caption{E-Mail-Kompositionssystem mit WYSIWYG-Editor}
+%     \label{fig:email-composer}
+% \end{figure}
+
+\subsection{Bulk-E-Mail-Interface}
+% TODO: Screenshots des Massenversands
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{images/bulk-email.png}
+%     \caption{Bulk-E-Mail-Interface mit Progress-Anzeige}
+%     \label{fig:bulk-email}
+% \end{figure}
+
+\section{Testprotokolle}
+
+\subsection{Unit-Test-Ergebnisse}
+% TODO: Test-Ergebnisse dokumentieren
+% - Test-Coverage-Reports
+% - Erfolgreiche und fehlgeschlagene Tests
+% - Performance-Metriken
+
+\subsection{Integrations-Test-Protokolle}
+% TODO: Integration-Test-Berichte
+% - API-Test-Ergebnisse
+% - Database-Integration-Tests
+% - E-Mail-System-Tests
+
+\subsection{User-Acceptance-Test-Berichte}
+% TODO: UAT-Dokumentation
+% - Feedback von MSOs/DOs
+% - Usability-Test-Ergebnisse
+% - Verbesserungsvorschläge
+
+\section{Datenbank-Schema}
+
+\subsection{ERD (Entity-Relationship-Diagramm)}
+% TODO: ER-Diagramm einfügen
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{images/erd.png}
+%     \caption{Entity-Relationship-Diagramm des Kommunikationssystems}
+%     \label{fig:erd}
+% \end{figure}
+
+\subsection{Tabellen-Definitionen}
+% TODO: SQL-CREATE-Statements
+% \begin{lstlisting}[language=SQL, caption=E-Mail-History-Tabelle]
+% CREATE TABLE email_history (
+%     id INT PRIMARY KEY AUTO_INCREMENT,
+%     -- weitere Felder
+% );
+% \end{lstlisting}
+
+\subsection{Index-Strategien}
+% TODO: Performance-Optimierung
+% - Erklärung der verwendeten Indizes
+% - Performance-Begründungen
+% - Query-Optimierungen
+
+\section{E-Mail-Templates}
+
+\subsection{Standard-Benachrichtigungsvorlagen}
+% TODO: Standard-Templates
+% - Abstract-Annahme-Vorlage
+% - Abstract-Ablehnung-Vorlage
+% - Allgemeine Informations-Vorlage
+
+\subsection{Session-spezifische Vorlagen}
+% TODO: Session-Templates
+% - Templates für verschiedene Scientific Commissions
+% - Session-spezifische Informationen
+% - Platzhalter-Variablen
+
+\subsection{Mehrsprachige Templates}
+% TODO: Internationalization
+% - Englische Templates (Standard)
+% - Deutsche Templates (falls benötigt)
+% - Template-Auswahl-Mechanismus
+
+\section{Projektplan (Gantt-Diagramm)}
+% TODO: Gantt-Diagramm einfügen
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{images/gantt.png}
+%     \caption{Projektplan mit Meilensteinen und Abhängigkeiten}
+%     \label{fig:gantt}
+% \end{figure}
+
+\section{Glossar}
+% TODO: Wichtige Begriffe definieren
+\begin{description}
+    \item[COSPAR] Committee on Space Research - Internationale Organisation für Weltraumforschung
+    \item[MSO] Main Scientific Organizer - Hauptverantwortlicher für eine wissenschaftliche Session
+    \item[DO] Deputy Organizer - Stellvertretender Organisator einer Session
+    \item[Abstract] Kurze Zusammenfassung eines wissenschaftlichen Beitrags
+    \item[Session] Thematische Gruppierung von Präsentationen bei COSPAR-Veranstaltungen
+    \item[Bulk E-Mail] Massenversand von E-Mails an mehrere Empfänger
+    \item[SMTP] Simple Mail Transfer Protocol - Standard für E-Mail-Versand
+    \item[WYSIWYG] What You See Is What You Get - Editor-Typ für visuelle Bearbeitung
+\end{description}
+
+% Literaturverzeichnis
+\begin{thebibliography}{99}
+% TODO: Quellen einfügen
+\bibitem{cospar} COSPAR Website: \url{https://cosparhq.cnes.fr/}
+\bibitem{php} PHP Documentation: \url{https://www.php.net/docs.php}
+\bibitem{mysql} MySQL Documentation: \url{https://dev.mysql.com/doc/}
+\bibitem{javascript} Mozilla JavaScript Guide: \url{https://developer.mozilla.org/en-US/docs/Web/JavaScript}
+\bibitem{html5} HTML5 Specification: \url{https://html.spec.whatwg.org/}
+\bibitem{css3} CSS3 Specification: \url{https://www.w3.org/Style/CSS/}
+\bibitem{smtp} RFC 5321 - Simple Mail Transfer Protocol: \url{https://tools.ietf.org/html/rfc5321}
+\bibitem{gdpr} DSGVO - Datenschutz-Grundverordnung: \url{https://dsgvo-gesetz.de/}
+\end{thebibliography}
+
 \end{document}

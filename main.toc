@@ -19,9 +19,10 @@
 \contentsline {subsubsection}{\numberline {3.2.2}Wahl der Technologien}{3}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Anbindung an die bestehende Datenbank}{3}{subsubsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.3}Konzeption der Features}{3}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Autorenfilter-System}{3}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}E-Mail-Kompositionssystem}{3}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Bulk-E-Mail-Funktionalität}{3}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Autorenfilterung und -auswahl}{3}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}E-Mail-Erstellung und -versand}{3}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Kommunikationsübersicht}{3}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}E-Mail-Detailansicht}{3}{subsubsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.4}UI/UX Design}{3}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Wireframes und Mockups}{3}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Responsives Designkonzept}{3}{subsubsection.3.4.2}%
@@ -37,7 +38,8 @@
 \contentsline {subsection}{\numberline {4.3}Frontend-Implementierung}{4}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {4.3.1}Autorenfilter-Interface}{4}{subsubsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.2}E-Mail-Kompositions-Interface}{4}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Bulk-Email-Interface}{4}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3}Kommunikationsübersicht-Interface}{4}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}E-Mail-Detail-Interface}{4}{subsubsection.4.3.4}%
 \contentsline {subsection}{\numberline {4.4}Styling und Design}{4}{subsection.4.4}%
 \contentsline {subsubsection}{\numberline {4.4.1}CSS-Implementierung}{4}{subsubsection.4.4.1}%
 \contentsline {subsubsection}{\numberline {4.4.2}JavaScript-Funktionalitäten}{4}{subsubsection.4.4.2}%

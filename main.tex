@@ -104,7 +104,7 @@
         \textbf{Ausbildungsberuf:} & Fachinformatiker für Anwendungsentwicklung \\[0.5em]
         \textbf{Ausbildungsbetrieb:} & AFZ - Aus- und Fortbildungszentrum Bremen \\[0.5em]
         \textbf{Ausbildungsstelle:} & ZARM - Zentrum für angewandte Raumfahrttechnologie und Mikrogravitation \\[0.5em]
-        \textbf{Prüflings-Nr.:} & [Ihre Prüflings-Nr.] \\
+        \textbf{Prüflings-Nr.:} & [Prüflings-Nr.] \\
     \end{tabular}
 \end{center}
 
@@ -256,23 +256,37 @@ Im Rahmen der Ausbildung werden praktische IT-Projekte durchgeführt, die reale 
 
 \subsection{Konzeption der Features}
 
-\subsubsection{Autorenfilter-System}
-% TODO: Konzept der Filterung
-% - Filter nach Sessions (A0.1, A0.2, etc.)
-% - Filter nach Autorentyp (Presenting Author, Co-Author)
-% - Kombinierte Filter
+\subsubsection{Autorenfilterung und -auswahl}
+% TODO: Konzept der intelligenten Autorenfilterung
+% - Session-basierte Filterung (A0.1, A0.2, etc.)
+% - Autorentyp-Filter (Presenting Author, Co-Author)
+% - Kombinierte Filterkriterien für präzise Auswahl
+% - Übersichtliche Ergebnistabelle mit Autoreninformationen
+% - "Contact Offers" Funktionalität für gefilterte Gruppen
+% - Auswahl-Checkboxen für individuelle Empfängersteuerung
 
-\subsubsection{E-Mail-Kompositionssystem}
-% TODO: Konzept des E-Mail-Editors
-% - WYSIWYG-Editor
-% - E-Mail-Vorlagen
-% - Empfängerauswahl
+\subsubsection{E-Mail-Erstellung und -versand}
+% TODO: Konzept des E-Mail-Kompositionssystems
+% - Benutzerfreundlicher Rich-Text-Editor
+% - Vordefinierte E-Mail-Vorlagen für häufige Anlässe
+% - Automatische Empfängerübernahme aus Filterauswahl
+% - Vorschau-Funktion vor dem Versand
+% - Massenversand mit Progress-Anzeige
+% - Fehlerbehandlung bei Zustellungsproblemen
 
-\subsubsection{Bulk-E-Mail-Funktionalität}
-% TODO: Konzept für Massenversand
-% - Automatische Empfängerlisten basierend auf Filtern
-% - Progress-Tracking beim Versand
-% - Fehlerbehandlung
+\subsubsection{Kommunikationsübersicht}
+% TODO: Konzept der E-Mail-Historienführung
+% - Zentrale Übersicht aller versendeten E-Mails
+% - Chronologische und session-basierte Sortierung
+% - Schnellsuche nach Empfängern oder Inhalten
+% - Status-Anzeige für erfolgreiche/fehlgeschlagene Zustellungen
+
+\subsubsection{E-Mail-Detailansicht}
+% TODO: Konzept der detaillierten E-Mail-Informationen
+% - Vollständige Anzeige einzelner E-Mail-Nachrichten
+% - Detaillierte Empfängerliste mit Zustellungsstatus
+% - Versandzeitpunkt und technische Metadaten
+% - Möglichkeit zur Weiterleitung oder Wiederholung
 
 \subsection{UI/UX Design}
 
@@ -352,15 +366,17 @@ Im Rahmen der Ausbildung werden praktische IT-Projekte durchgeführt, die reale 
 % - Template-Auswahl
 % - Empfänger-Vorschau
 
-\subsubsection{Bulk-Email-Interface}
-% TODO: Massenversand-UI
-% - Interface zur Auswahl mehrerer Autoren gleichzeitig
-% - "Contact Offers" Button für gefilterte Autorenlisten
-% - Batch-E-Mail-Komposition für alle ausgewählten Autoren
-% - Progress-Bar für Versandstatus beim Massenversand
-% - Bestätigungsdialog vor dem Versand an viele Empfänger
-% - Real-time-Updates über erfolgreiche/fehlgeschlagene Zustellungen
-% - Fehleranzeige bei nicht zustellbaren E-Mail-Adressen
+\subsubsection{Kommunikationsübersicht-Interface}
+
+% Email history table display
+% Search and sort functions
+% Status icons and pagination
+
+\subsubsection{E-Mail-Detail-Interface}
+
+% Modal dialog or separate page for details
+% Recipient lists and metadata display
+% Action buttons for forwarding/retrying
 
 \subsection{Styling und Design}
 

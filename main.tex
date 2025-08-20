@@ -158,15 +158,11 @@ Das ZARM spielt eine bedeutende Rolle in der internationalen Raumfahrtforschung 
 Im Rahmen der Ausbildung werden praktische IT-Projekte durchgeführt, die reale Problemstellungen aus dem wissenschaftlichen Betrieb aufgreifen und digitale Lösungen entwickeln. Das COSPAR Communication System Projekt ist ein solches Ausbildungsprojekt, das eine konkrete Herausforderung im COSPAR-Organisationsprozess adressiert.
 
 \subsection{Zielsetzung des Projekts}
-Das COSPAR Communication System Projekt verfolgt mehrere zentrale Ziele zur Verbesserung der Kommunikationsprozesse zwischen MSOs/DOs und ihren Session-Autoren:
+Das COSPAR Communication System Projekt verfolgt mehrere zentrale Ziele zur Verbesserung der Kommunikationsprozesse zwischen MSOs/DOs und ihren Session-Autoren. Ein Hauptziel ist die deutliche Steigerung der Effizienz, sodass MSOs und DOs ihre Autoren wesentlich schneller kontaktieren können als bisher. Dies wird durch eine Bulk-E-Mail-Funktionalität erreicht, die es ermöglicht, mehrere Autoren gleichzeitig zu kontaktieren.
 
-\begin{itemize}
-    \item \textbf{Effizienz steigern}: MSOs und DOs sollen ihre Autoren deutlich schneller und effektiver kontaktieren können
-    \item \textbf{Bulk-E-Mail-Funktionalität}: Implementierung eines Systems, das es ermöglicht, mehrere Autoren gleichzeitig zu kontaktieren
-    \item \textbf{Intelligente Filterung}: Entwicklung von Filteroptionen nach Sessions, Autorentypen (Presenting Authors, Co-Authors) und Präsentationsstatus
-    \item \textbf{Manuelle Prozesse eliminieren}: Automatisierung der E-Mail-Adressen-Sammlung und -Verarbeitung
-    \item \textbf{Integration}: Nahtlose Einbindung in die bestehende COSPAR-Webinfrastruktur
-\end{itemize}
+Ein weiterer wichtiger Aspekt ist die Entwicklung intelligenter Filteroptionen, die eine präzise Auswahl nach verschiedenen Kriterien ermöglichen. Diese umfassen die Filterung nach Sessions, Autorentypen wie Presenting Authors und Co-Authors sowie nach dem Präsentationsstatus. Dadurch können MSOs und DOs gezielt bestimmte Autorengruppen ansprechen.
+
+Das Projekt eliminiert zeitaufwändige manuelle Prozesse durch automatisierte Systeme, die direkt auf die COSPAR-Datenbank zugreifen. Die nahtlose Integration in die bestehende COSPAR-Webinfrastruktur gewährleistet, dass das neue System harmonisch mit den vorhandenen Arbeitsabläufen funktioniert, ohne zusätzliche Komplexität für die Benutzer zu verursachen.
 
 \subsection{Was ist COSPAR?}
 COSPAR (Committee on Space Research) ist eine internationale wissenschaftliche Organisation, die 1958 vom International Council for Science (ICSU) gegründet wurde und als weltweites Forum für den wissenschaftlichen Austausch in der Weltraumforschung dient. Die Organisation koordiniert internationale Bemühungen in allen Bereichen der Raumfahrtwissenschaften und fördert die Zusammenarbeit zwischen verschiedenen Raumfahrtagenturen und Forschungseinrichtungen weltweit. Das wichtigste Ereignis von COSPAR sind die alle zwei Jahre stattfindenden Scientific Assemblies (Wissenschaftliche Versammlungen), bei denen Tausende von Wissenschaftlern aus aller Welt zusammenkommen, um aktuelle Forschungsergebnisse zu präsentieren und zu diskutieren. Diese Konferenzen sind nach wissenschaftlichen Kommissionen und Panels strukturiert, die verschiedene Bereiche der Weltraumforschung abdecken - von Planetenforschung über Astrophysik bis hin zu Weltraumtechnologie. COSPAR entwickelt wichtige Standards für Planetenschutz, koordiniert Datenformat-Richtlinien und organisiert den strukturierten Prozess der wissenschaftlichen Beitragsverwaltung über webbasierte Systeme. Die komplexe Organisation dieser internationalen Veranstaltungen erfordert ein effizientes Management-System, in dem die Main Scientific Organizers (MSOs) und Deputy Organizers (DOs) eine zentrale Rolle spielen, da sie die Schnittstelle zwischen der COSPAR-Führung und der wissenschaftlichen Gemeinschaft bilden.
@@ -191,59 +187,21 @@ COSPAR (Committee on Space Research) ist eine internationale wissenschaftliche O
 \subsection{Ist-Analyse}
 
 \subsubsection{Aktuelle Kommunikationsweise der MSOs/DOs}
-Der bisherige Kommunikationsprozess erfolgt vollständig manuell:
-\begin{itemize}
-    \item MSOs/DOs öffnen ihr E-Mail-Programm (Outlook, Thunderbird, etc.)
-    \item Manuelle Eingabe aller Autoren-E-Mail-Adressen durch Kopieren aus der COSPAR-Datenbank
-    \item Einzelne E-Mail-Erstellung für jede Kommunikation
-    \item Kein systematisches Filterungssystem für verschiedene Autorengruppen
-    \item Zeitaufwändiger Prozess, besonders bei Sessions mit vielen Teilnehmern
-\end{itemize}
+Der bisherige Kommunikationsprozess erfolgt vollständig manuell und ist sehr zeitaufwändig. MSOs und DOs müssen zunächst ihr E-Mail-Programm wie Outlook oder Thunderbird öffnen und dann alle benötigten Autoren-E-Mail-Adressen einzeln aus der COSPAR-Datenbank kopieren. Für jede Kommunikation muss eine separate E-Mail erstellt werden, da kein systematisches Filterungssystem für verschiedene Autorengruppen existiert. Dieser Prozess wird besonders bei Sessions mit vielen Teilnehmern sehr zeitaufwändig und fehleranfällig.
 
 \subsubsection{Probleme und Schwachstellen}
-\begin{itemize}
-    \item \textbf{Fehlerquelle}: Tippfehler bei manueller E-Mail-Adressen-Eingabe führen zu nicht zugestellten Nachrichten
-    \item \textbf{Unvollständigkeit}: Vergessen einzelner Autoren bei umfangreichen Autorenlisten
-    \item \textbf{Zeitverschwendung}: Repetitive Aufgaben bei jeder Kommunikationsrunde
-    \item \textbf{Keine Dokumentation}: Fehlende Historienführung über gesendete E-Mails und Empfänger
-    \item \textbf{Ineffizienz}: Keine Möglichkeit zur gezielten Filterung nach Autorentypen oder Session-Eigenschaften
-\end{itemize}
+Die manuelle Vorgehensweise führt zu verschiedenen Problemen. Tippfehler bei der E-Mail-Adressen-Eingabe können dazu führen, dass wichtige Nachrichten nicht zugestellt werden. Bei umfangreichen Autorenlisten werden häufig einzelne Autoren vergessen, was zu unvollständiger Kommunikation führt. Die repetitiven Aufgaben bei jeder Kommunikationsrunde verschwenden wertvolle Arbeitszeit. Zusätzlich fehlt jede Art von Dokumentation oder Historienführung über gesendete E-Mails, und es gibt keine Möglichkeit zur gezielten Filterung nach Autorentypen oder Session-Eigenschaften.
 
 \subsection{Soll-Analyse}
 
 \subsubsection{Funktionale Anforderungen}
-\begin{itemize}
-    \item \textbf{MSO/DO-Authentifizierung}: Sichere Anmeldung mit Berechtigungsprüfung für spezifische Sessions
-    \item \textbf{Session-basierte Autorenlisten}: Automatische Anzeige aller Autoren einer bestimmten Session
-    \item \textbf{Erweiterte Filteroptionen}:
-    \begin{itemize}
-        \item Autorentyp (Alle, Presenting Authors, Co-Authors)
-        \item Präsentationstyp (Alle, Oral Presentations, Poster Presentations)
-        \item Upload-Status (Alle, mit Präsentation, ohne Präsentation)
-    \end{itemize}
-    \item \textbf{Externe E-Mail-Client-Integration}: Automatische Mailto-Link-Generierung für nahtlose Integration mit bestehenden E-Mail-Programmen
-    \item \textbf{Such- und Filterfunktionen}: Echtzeit-Suche in Autorenlisten
-    \item \textbf{Responsive Design}: Funktionalität auf verschiedenen Geräten
-\end{itemize}
+Das neue System soll eine sichere MSO/DO-Authentifizierung mit Berechtigungsprüfung für spezifische Sessions bieten. Kern des Systems sind session-basierte Autorenlisten, die automatisch alle Autoren einer bestimmten Session anzeigen. Erweiterte Filteroptionen ermöglichen die Auswahl nach Autorentyp (Presenting Authors oder Co-Authors), Präsentationstyp (Oral oder Poster Presentations) und Upload-Status der Präsentationen. Die Integration mit externen E-Mail-Clients erfolgt über automatische Mailto-Link-Generierung, während Such- und Filterfunktionen eine Echtzeit-Suche in Autorenlisten ermöglichen. Das responsive Design gewährleistet die Funktionalität auf verschiedenen Geräten.
 
 \subsubsection{Nicht-funktionale Anforderungen}
-\begin{itemize}
-    \item \textbf{Performance}: Schnelle Filterung auch bei hunderten von Autoren pro Session
-    \item \textbf{Benutzerfreundlichkeit}: Intuitive Bedienung mit maximal 3 Klicks zur E-Mail-Erstellung
-    \item \textbf{Sicherheit}: Sichere Authentifizierung und Datenschutz-konforme Handhabung von E-Mail-Adressen
-    \item \textbf{Kompatibilität}: Browser-übergreifende Funktionalität (Chrome, Firefox, Safari, Edge)
-    \item \textbf{Integration}: Nahtlose Einbindung in bestehende COSPAR-Infrastruktur ohne Störung anderer Systeme
-    \item \textbf{Skalierbarkeit}: System muss mit wachsenden Teilnehmerzahlen umgehen können
-\end{itemize}
+Das System muss auch bei hunderten von Autoren pro Session eine schnelle Filterung gewährleisten und durch intuitive Bedienung maximal 3 Klicks zur E-Mail-Erstellung benötigen. Sichere Authentifizierung und datenschutzkonforme Handhabung von E-Mail-Adressen sind essentiell. Die browser-übergreifende Kompatibilität muss für Chrome, Firefox, Safari und Edge sichergestellt werden, während die nahtlose Integration in die bestehende COSPAR-Infrastruktur ohne Störung anderer Systeme erfolgen soll. Das System muss außerdem mit wachsenden Teilnehmerzahlen skalieren können.
 
 \subsection{Wirtschaftlichkeitsbetrachtung}
-\textbf{Nutzen vs. Aufwand}:
-\begin{itemize}
-    \item \textbf{Zeitersparnis}: Reduktion der Kommunikationszeit von 30+ Minuten auf unter 2 Minuten pro Session
-    \item \textbf{Fehlerreduktion}: Eliminierung manueller Eingabefehler bei E-Mail-Adressen
-    \item \textbf{Entwicklungsaufwand}: Ca. 35 Stunden Entwicklungszeit für langfristige Effizienzgewinne
-    \item \textbf{ROI}: Amortisation bereits nach wenigen COSPAR-Assemblies durch eingesparte Arbeitszeit
-\end{itemize}
+Die Wirtschaftlichkeitsanalyse zeigt einen deutlichen Nutzen gegenüber dem Entwicklungsaufwand. Die größte Zeitersparnis liegt in der Reduktion der Kommunikationszeit von über 30 Minuten auf unter 2 Minuten pro Session. Gleichzeitig werden manuelle Eingabefehler bei E-Mail-Adressen eliminiert, was die Zuverlässigkeit der Kommunikation erheblich verbessert. Der Entwicklungsaufwand von etwa 35 Stunden führt zu langfristigen Effizienzgewinnen, wobei sich die Investition bereits nach wenigen COSPAR-Assemblies durch die eingesparte Arbeitszeit amortisiert.
 
 \newpage
 \section{Entwurfsphase}

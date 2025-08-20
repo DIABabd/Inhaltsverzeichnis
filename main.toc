@@ -10,7 +10,7 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Probleme und Schwachstellen}{3}{subsubsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.2}Soll-Analyse}{3}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Funktionale Anforderungen}{3}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Nicht-funktionale Anforderungen}{4}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2}Nicht-funktionale Anforderungen}{3}{subsubsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.3}Wirtschaftlichkeitsbetrachtung}{4}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Entwurfsphase}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Systemarchitektur und Datenfluss}{5}{subsection.3.1}%

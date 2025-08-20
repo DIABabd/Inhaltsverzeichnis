@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.29)  20 AUG 2025 11:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.29)  20 AUG 2025 11:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -516,21 +516,11 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 150.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 150.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 164.
- (C:\Users\Abdullah\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
-LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 164.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `phv' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 173.
+Package pdftex.def Info: image1.png  used on input line 169.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -548,14 +538,25 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.173 
+l.169 
        [1
 
 ]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 177.
+ (C:\Users\Abdullah\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 177.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 187.
+Package pdftex.def Info: image1.png  used on input line 183.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -573,12 +574,12 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.187 \newpage
+l.183 \newpage
                [2]
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 225.
+Package pdftex.def Info: image1.png  used on input line 202.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -596,7 +597,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 248.
+Package pdftex.def Info: image1.png  used on input line 206.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -614,7 +615,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 289.
+Package pdftex.def Info: image1.png  used on input line 247.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -632,7 +633,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 325.
+Package pdftex.def Info: image1.png  used on input line 283.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -650,7 +651,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 377.
+Package pdftex.def Info: image1.png  used on input line 335.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -668,7 +669,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 388.
+Package pdftex.def Info: image1.png  used on input line 346.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -683,7 +684,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 (fancyhdr)                \addtolength{\topmargin}{-38.22324pt}.
 
 [8]
-Underfull \hbox (badness 2245) in paragraph at lines 423--424
+Underfull \hbox (badness 2245) in paragraph at lines 381--382
 []\T1/phv/b/n/10.95 (+20) Empf�ngerverwaltung\T1/phv/m/n/10.95 (+20) : Si-che-re Hand-ha-bung von E-Mail-Adressen mit Datenschutz-
  []
 
@@ -691,7 +692,7 @@ Underfull \hbox (badness 2245) in paragraph at lines 423--424
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 425.
+Package pdftex.def Info: image1.png  used on input line 383.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -709,7 +710,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 460.
+Package pdftex.def Info: image1.png  used on input line 418.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -727,7 +728,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 498.
+Package pdftex.def Info: image1.png  used on input line 456.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -745,7 +746,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 511.
+Package pdftex.def Info: image1.png  used on input line 469.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -761,105 +762,105 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 [12]
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:520: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:478: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.520 MSO/DO-Authentifizierung & ✅
+l.478 MSO/DO-Authentifizierung & ✅
                                      Vollständig & 100\% \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:522: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:480: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.522 Session-basierte Autorenlisten & ✅
+l.480 Session-basierte Autorenlisten & ✅
                                            Vollständig & 100\% \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:524: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:482: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.524 Autorentyp-Filterung & ✅
+l.482 Autorentyp-Filterung & ✅
                                  Vollständig & 100\% \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:526: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:484: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.526 Präsentationstyp-Filter & ✅
+l.484 Präsentationstyp-Filter & ✅
                                      Vollständig & 100\% \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:528: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:486: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.528 Upload-Status-Filter & ✅
+l.486 Upload-Status-Filter & ✅
                                  Vollständig & 100\% \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:530: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:488: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.530 E-Mail-Client-Integration & ✅
+l.488 E-Mail-Client-Integration & ✅
                                       Vollständig & 100\% \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:532: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:490: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.532 Responsive Design & ✅
+l.490 Responsive Design & ✅
                               Vollständig & 100\% \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:534: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:492: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.534 Performance-Optimierung & ✅
+l.492 Performance-Optimierung & ✅
                                     Vollständig & 100\% \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -868,7 +869,7 @@ You may provide a definition with
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 570.
+Package pdftex.def Info: image1.png  used on input line 528.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -890,7 +891,7 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 606.
+Package pdftex.def Info: image1.png  used on input line 564.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -905,20 +906,20 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 (fancyhdr)                \addtolength{\topmargin}{-38.22324pt}.
 
 [14]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 606.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 564.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 607.
+(Font)              scaled to size 8.54997pt on input line 565.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 607.
+(Font)              scaled to size 5.69998pt on input line 565.
 
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 652.
+Package pdftex.def Info: image1.png  used on input line 610.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -936,7 +937,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 700.
+Package pdftex.def Info: image1.png  used on input line 658.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -958,26 +959,26 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:721: Package Listings Error: Couldn't load requested language.
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:679: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.721 ...pt, caption=Filter-Wizard Implementation]
+l.679 ...pt, caption=Filter-Wizard Implementation]
                                                   
 The following languages weren't loadable:
     ,javascript$
 This may cause errors in the sequel.
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:721: Package Listings Error: language javascript undefined.
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:679: Package Listings Error: language javascript undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.721 ...pt, caption=Filter-Wizard Implementation]
+l.679 ...pt, caption=Filter-Wizard Implementation]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -986,7 +987,7 @@ If that doesn't work, type  X <return>  to quit.
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 747.
+Package pdftex.def Info: image1.png  used on input line 705.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -1004,7 +1005,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 787.
+Package pdftex.def Info: image1.png  used on input line 745.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -1022,7 +1023,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 830.
+Package pdftex.def Info: image1.png  used on input line 788.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -1040,7 +1041,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 873.
+Package pdftex.def Info: image1.png  used on input line 831.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -1058,7 +1059,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 912.
+Package pdftex.def Info: image1.png  used on input line 870.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -1076,7 +1077,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 959.
+Package pdftex.def Info: image1.png  used on input line 917.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -1098,26 +1099,26 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:966: Package Listings Error: Couldn't load requested language.
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:924: Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.966 ...aption=Externe E-Mail-Client-Integration]
+l.924 ...aption=Externe E-Mail-Client-Integration]
                                                   
 The following languages weren't loadable:
     ,javascript$
 This may cause errors in the sequel.
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:966: Package Listings Error: language javascript undefined.
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:924: Package Listings Error: language javascript undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.966 ...aption=Externe E-Mail-Client-Integration]
+l.924 ...aption=Externe E-Mail-Client-Integration]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1126,7 +1127,7 @@ If that doesn't work, type  X <return>  to quit.
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 1003.
+Package pdftex.def Info: image1.png  used on input line 961.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -1142,72 +1143,72 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 [23]
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:1047: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:1005: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1047 ...ch Typ & Funktioniert wie erwartet & ✅
+l.1005 ...ch Typ & Funktioniert wie erwartet & ✅
                                                    Bestanden \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:1049: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:1007: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1049 ...e getesteten Clients funktionieren & ✅
+l.1007 ...e getesteten Clients funktionieren & ✅
                                                    Bestanden \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:1051: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:1009: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1051 ...& Dynamische Updates funktionieren & ✅
+l.1009 ...& Dynamische Updates funktionieren & ✅
                                                    Bestanden \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:1053: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:1011: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1053 ...& Chrome, Firefox, Safari, Edge OK & ✅
+l.1011 ...& Chrome, Firefox, Safari, Edge OK & ✅
                                                    Bestanden \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:1055: LaTeX Error: Unicode character ✅ (U+2705)
+c:/Users/Abdullah/Desktop/Ausbildung/Arbeit/Abschlüssarbeit/Inhaltsverzeichnis/main.tex:1013: LaTeX Error: Unicode character ✅ (U+2705)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1055 ...toren & Durchschnitt 1.3s Ladezeit & ✅
+l.1013 ...toren & Durchschnitt 1.3s Ladezeit & ✅
                                                    Bestanden \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \hbox (64.45871pt too wide) in paragraph at lines 1043--1058
+Overfull \hbox (64.45871pt too wide) in paragraph at lines 1001--1016
  [] 
  []
 
@@ -1215,7 +1216,7 @@ Overfull \hbox (64.45871pt too wide) in paragraph at lines 1043--1058
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 1058.
+Package pdftex.def Info: image1.png  used on input line 1016.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -1233,7 +1234,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 1102.
+Package pdftex.def Info: image1.png  used on input line 1060.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -1251,7 +1252,7 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 1125.
+Package pdftex.def Info: image1.png  used on input line 1083.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -1266,12 +1267,12 @@ Package fancyhdr Warning: \headheight is too small (85.35826pt):
 (fancyhdr)                \addtolength{\topmargin}{-38.22324pt}.
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1141--1142
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
 []\T1/phv/m/n/10.95 (+20) MDN Web Docs - Ja-vaS-cript: []$\T1/cmtt/m/n/10.95 https : / / developer . mozilla . org / en-[]US / docs / Web /
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 1159--1160
+Underfull \hbox (badness 3323) in paragraph at lines 1117--1118
 []\T1/phv/m/n/10.95 (+20) Nielsen Nor-man Group - Usa-bi-li-ty Heu-ri-stics: []$\T1/cmtt/m/n/10.95 https : / / www . nngroup . com / articles /
  []
 
@@ -1279,7 +1280,7 @@ Underfull \hbox (badness 3323) in paragraph at lines 1159--1160
 
 File: image1.png Graphic file (type png)
 <use image1.png>
-Package pdftex.def Info: image1.png  used on input line 1163.
+Package pdftex.def Info: image1.png  used on input line 1121.
 (pdftex.def)             Requested size: 575.04736pt x 62.59596pt.
 
 Overfull \hbox (62.89775pt too wide) has occurred while \output is active
@@ -1302,15 +1303,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C46F8417AD3A534A9AAC0B14A583590B;10897.
  ) 
 Here is how much of TeX's memory you used:
- 18828 strings out of 468221
- 307217 string characters out of 5431439
+ 18824 strings out of 468221
+ 307175 string characters out of 5431439
  1613155 words of memory out of 5000000
  46439 multiletter control sequences out of 15000+600000
- 661435 words of font info for 185 fonts, out of 8000000 for 9000
+ 661402 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,1592b,3867s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Abdullah\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Abdullah\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0900.pk><C:/Users/Abdullah/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Abdullah/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (32 pages, 267981 bytes).
+Output written on main.pdf (32 pages, 268453 bytes).
 PDF statistics:
  1157 PDF objects out of 1200 (max. 8388607)
  533 named destinations out of 1000 (max. 500000)

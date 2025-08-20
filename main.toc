@@ -10,49 +10,54 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Probleme und Schwachstellen}{3}{subsubsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.2}Soll-Analyse}{3}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Funktionale Anforderungen}{3}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Nicht-funktionale Anforderungen}{3}{subsubsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}Wirtschaftlichkeitsbetrachtung}{3}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Entwurfsphase}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Systemarchitektur und Datenfluss}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Technische Architektur}{4}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Analyse der bestehenden Codebasis}{4}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Wahl der Technologien}{4}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Anbindung an die bestehende Datenbank}{4}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Konzeption der Features}{4}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Autorenfilterung und -auswahl}{4}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}E-Mail-Erstellung und -versand}{4}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Kommunikationsübersicht}{4}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}E-Mail-Detailansicht}{4}{subsubsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.4}UI/UX Design}{4}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Wireframes und Mockups}{4}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Responsives Designkonzept}{4}{subsubsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.5}Projektplanung}{4}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Zeitplan}{4}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Meilensteine}{4}{subsubsection.3.5.2}%
-\contentsline {section}{\numberline {4}Projektdurchführung}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Entwicklungsumgebung einrichten}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Backend-Implementierung}{5}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Datenbankzugriffe}{5}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}MSO/DO-Authentifizierung}{5}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}E-Mail-System-Integration}{5}{subsubsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.3}Frontend-Implementierung}{5}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Filter-Wizard-Interface}{5}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}E-Mail-Kompositions-Interface}{5}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Kommunikationsübersicht-Interface}{5}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}E-Mail-Detail-Interface}{5}{subsubsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.4}Styling und Design}{5}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}CSS-Implementierung}{5}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}JavaScript-Funktionalitäten}{5}{subsubsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.5}Testing}{5}{subsection.4.5}%
-\contentsline {subsubsection}{\numberline {4.5.1}Funktionalitätstests}{5}{subsubsection.4.5.1}%
-\contentsline {subsubsection}{\numberline {4.5.2}Usability Tests}{5}{subsubsection.4.5.2}%
-\contentsline {section}{\numberline {5}Projektabschluss}{6}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Soll-Ist-Vergleich}{6}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Ausblick und Nutzen für COSPAR}{6}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Reflexion}{6}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Fazit}{6}{subsection.5.4}%
-\contentsline {section}{\numberline {A}Quellcode-Auszüge}{6}{appendix.A}%
-\contentsline {section}{\numberline {B}Screenshots}{6}{appendix.B}%
-\contentsline {section}{\numberline {C}Testprotokolle}{6}{appendix.C}%
-\contentsline {section}{\numberline {D}Projektplan (Gantt-Diagramm)}{6}{appendix.D}%
-\contentsline {section}{\numberline {E}Glossar}{6}{appendix.E}%
+\contentsline {subsubsection}{\numberline {2.2.2}Nicht-funktionale Anforderungen}{4}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Wirtschaftlichkeitsbetrachtung}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Entwurfsphase}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Systemarchitektur und Datenfluss}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Technische Architektur}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Analyse der bestehenden Codebasis}{5}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Wahl der Technologien}{5}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Anbindung an die bestehende Datenbank}{6}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Konzeption der Features}{6}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Autorenfilterung und -auswahl}{6}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Externe E-Mail-Client-Integration}{6}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Benutzeroberflächen-Design}{7}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Integration in bestehende COSPAR-Infrastruktur}{7}{subsubsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.4}UI/UX Design}{7}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Wireframes und Mockups}{7}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Responsives Designkonzept}{7}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Projektplanung}{8}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Zeitplan}{8}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Meilensteine}{8}{subsubsection.3.5.2}%
+\contentsline {section}{\numberline {4}Projektdurchführung}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Entwicklungsumgebung einrichten}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Backend-Implementierung}{9}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Datenbankzugriffe}{9}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}MSO/DO-Authentifizierung}{9}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}E-Mail-System-Integration}{10}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Frontend-Implementierung}{10}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Filter-Wizard-Interface}{10}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Autorenkarten-Interface}{10}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Kommunikationsübersicht-Interface}{10}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}E-Mail-Client-Integration-Interface}{11}{subsubsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.4}Styling und Design}{11}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}CSS-Implementierung}{11}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}JavaScript-Funktionalitäten}{11}{subsubsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.5}Testing}{12}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Funktionalitätstests}{12}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Usability Tests}{12}{subsubsection.4.5.2}%
+\contentsline {section}{\numberline {5}Projektabschluss}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Soll-Ist-Vergleich}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Ausblick und Nutzen für COSPAR}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Reflexion}{14}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Fazit}{14}{subsection.5.4}%
+\contentsline {section}{\numberline {A}Quellcode-Auszüge}{15}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}PHP Backend - UserHelper.php}{15}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}JavaScript Frontend - Filter Wizard}{17}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}E-Mail-Client-Integration}{23}{subsection.A.3}%
+\contentsline {section}{\numberline {B}Screenshots}{24}{appendix.B}%
+\contentsline {section}{\numberline {C}Testprotokolle}{25}{appendix.C}%
+\contentsline {subsection}{\numberline {C.1}Funktionalitätstests - Ergebnisse}{25}{subsection.C.1}%
+\contentsline {subsection}{\numberline {C.2}Usability-Test-Ergebnisse}{25}{subsection.C.2}%
+\contentsline {section}{\numberline {D}Projektplan (Gantt-Diagramm)}{25}{appendix.D}%
+\contentsline {section}{\numberline {E}Glossar}{26}{appendix.E}%
